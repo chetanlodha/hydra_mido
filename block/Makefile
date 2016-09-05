@@ -26,9 +26,8 @@ obj-$(CONFIG_IOSCHED_VR)	+= vr-iosched.o
 obj-$(CONFIG_IOSCHED_MAPLE)     += maple-iosched.o
 obj-$(CONFIG_IOSCHED_FIOPS)     += fiops-iosched.o
 obj-$(CONFIG_IOSCHED_SIO)       += sio-iosched.o
-
 obj-$(CONFIG_IOSCHED_BFQ)	+= bfq-iosched.o
->>>>>>> a47c8fa... block: cgroups, kconfig, build bits for BFQ-v7r8-3.18.0
+obj-$(CONFIG_IOSCHED_ZEN)	+= zen-iosched.o
 
 obj-$(CONFIG_BLOCK_COMPAT)	+= compat_ioctl.o
 obj-$(CONFIG_BLK_CMDLINE_PARSER)	+= cmdline-parser.o
