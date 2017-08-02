@@ -2600,7 +2600,6 @@ static void hcd_release(struct kref *kref)
 
 	if (hcd->primary_hcd == hcd)
 		kfree(hcd->bandwidth_mutex);
-	}
 	if (hcd->shared_hcd) {
 		struct usb_hcd *peer = hcd->shared_hcd;
 
